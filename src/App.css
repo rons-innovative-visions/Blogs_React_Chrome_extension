@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    --primary: rgb(17, 45, 78);
+    --secondary: rgb(63, 114, 175);
+
+    min-width: 15rem;
+    min-height: 15rem;
+    max-width: 15rem;
+    max-height: 15rem;
+    @apply bg-gray-200 p-3 pt-0 text-center
+}
+
+.bg-primary{
+    background-color: var(--primary);
+}
+.bg-secondary{
+    background-color: var(--secondary);
+}
+.text-primary{
+    color: var(--primary);
+}
+.text-secondary{
+    color: var(--secondary);
+}
+
+.input {
+    @apply shadow appearance-none border rounded w-full px-3 leading-tight focus:outline-none
+}

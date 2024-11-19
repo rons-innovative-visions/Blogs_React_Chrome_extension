@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+<<<<<<< HEAD
+    "name": "Blogs Chrome Extension",
+    "description": "This is a Chrome extension built with React & Tailwind By Web Dev With Ron for the Blogs Application",
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "Blogs Chrome Extension"
+=======
+    "name": "Clicker Chrome Extension",
+    "description": "This is a Chrome extension built with React & Tailwind By ...",
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "Clicker Chrome Extension"
+>>>>>>> parent of 652e0e0 (Update manifest.json)
+    }
+}
